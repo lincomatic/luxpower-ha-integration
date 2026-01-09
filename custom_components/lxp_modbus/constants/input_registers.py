@@ -243,3 +243,50 @@ I_EPV6_ALL_H = 231 # PV6 total energy generation, High byte (Unit: 0.1kWh).
 
 # Smart Load
 I_SMART_LOAD_POWER = 232 # Smart Load power consumption (Unit: W, Range: 0-65535).
+
+# GridBoss
+I_GB_VGRID = 1  # GridBoss Grid voltage (Unit: 0.1V).
+I_GB_VEPS = 2  # GridBoss EPS voltage (Unit: 0.1V).
+I_GB_VGEN = 3  # GridBoss Generator voltage (Unit: 0.1V).
+I_GB_GRID_VL1N = 4  # GridBoss Grid L1 voltage (Unit: 0.1V).
+I_GB_GRID_VL2N = 5  # GridBoss Grid L2 voltage (Unit: 0.1V).
+I_GB_EPS_VL1N = 6  # GridBoss EPS L1 voltage (Unit: 0.1V).
+I_GB_EPS_VL2N = 7  # GridBoss EPS L2 voltage (Unit: 0.1V).
+I_GB_GEN_VL1N = 6  # GridBoss GEN L1 voltage (Unit: 0.1V).
+I_GB_GEN_VL2N = 9  # GridBoss GEN L2 voltage (Unit: 0.1V).
+I_GB_GRID_CL1N = 10  # GridBoss Grid L1 current (Unit: 0.01A).
+I_GB_GRID_CL2N = 11  # GridBoss Grid L2 current (Unit: 0.01A).
+I_GB_LOAD_CL1N = 12  # GridBoss Load L1 current (Unit: 0.01A).
+I_GB_LOAD_CL2N = 13  # GridBoss Load L2 current (Unit: 0.01A).
+I_GB_GEN_CL1N = 14  # GridBoss GEN L1 current (Unit: 0.01A).
+I_GB_GEN_CL2N = 15  # GridBoss GEN L2 current (Unit: 0.01A).
+I_GB_EPS_CL1N = 16  # GridBoss EPS L1 current (Unit: 0.01A).
+I_GB_EPS_CL2N = 17  # GridBoss EPS L2 current (Unit: 0.01A).
+I_GB_SL1_CL1N = 18  # GridBoss Smart Load 1 L1 current (Unit: 0.01A).
+I_GB_SL1_CL2N = 19  # GridBoss Smart Load 1 L2 current (Unit: 0.01A).
+I_GB_SL2_CL1N = 20  # GridBoss Smart Load 2 L1 current (Unit: 0.01A).
+I_GB_SL2_CL2N = 21  # GridBoss Smart Load 2 L2 current (Unit: 0.01A).
+I_GB_SL3_CL1N = 22  # GridBoss Smart Load 3 L1 current (Unit: 0.01A).
+I_GB_SL3_CL2N = 23  # GridBoss Smart Load 3 L2 current (Unit: 0.01A).
+I_GB_SL4_CL1N = 24  # GridBoss Smart Load 4 L1 current (Unit: 0.01A).
+I_GB_SL4_CL2N = 25  # GridBoss Smart Load 4 L2 current (Unit: 0.01A).
+I_GB_GRID_APWR_L1 = 26  # GridBoss Grid L1 active power (Unit: W).
+I_GB_GRID_APWR_L2 = 27  # GridBoss Grid L2 active power (Unit: W).
+I_GB_LOAD_APWR_L1 = 28  # GridBoss Load L1 active power (Unit: W).
+I_GB_LOAD_APWR_L2 = 29  # GridBoss Load L2 active power (Unit: W).
+I_GB_GEN_APWR_L1 = 30  # GridBoss GEN L1 active power (Unit: W).
+I_GB_GEN_APWR_L2 = 31  # GridBoss GEN L2 active power (Unit: W).
+I_GB_EPS_APWR_L1 = 32  # GridBoss EPS L1 active power (Unit: W).
+I_GB_EPS_APWR_L2 = 33  # GridBoss EPS L2 active power (Unit: W).
+I_GB_SL1_APWR_L1 = 34  # GridBoss Smart Load 1 L1 active power (Unit: W).
+I_GB_SL1_APWR_L2 = 35  # GridBoss Smart Load 1 L2 active power (Unit: W).
+I_GB_SL2_APWR_L1 = 36  # GridBoss Smart Load 2 L1 active power (Unit: W).
+I_GB_SL2_APWR_L2 = 37  # GridBoss Smart Load 2 L2 active power (Unit: W).
+I_GB_SL3_APWR_L1 = 38  # GridBoss Smart Load 3 L1 active power (Unit: W).
+I_GB_SL3_APWR_L2 = 39  # GridBoss Smart Load 3 L2 active power (Unit: W).
+I_GB_SL4_APWR_L1 = 40  # GridBoss Smart Load 4 L1 active power (Unit: W).
+I_GB_SL4_APWR_L2 = 41  # GridBoss Smart Load 4 L2 active power (Unit: W).
+
+
+I_GB_PHASE_LOCK_FAC = 128 # GridBoss Phase Lock Frequency (Unit: 0.01Hz).
+I_GB_GRID_FAC = 129 # GridBoss Grid Frequency (Unit: 0.01Hz).
