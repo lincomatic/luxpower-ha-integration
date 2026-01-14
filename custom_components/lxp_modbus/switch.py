@@ -42,6 +42,7 @@ class ModbusBridgeSwitch(ModbusBridgeEntity, SwitchEntity):
         if register_value is None:
             return None
         # Use the extract function to get the single bit's state (0 or 1)
+        _LOGGER.debug("Switch '%s' register value: %s %d", self.name, register_value, self._extract(register_value) )
         return bool(self._extract(register_value))
 
     async def async_turn_on(self, **kwargs) -> None:
