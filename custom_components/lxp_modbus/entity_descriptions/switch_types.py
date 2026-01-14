@@ -57,8 +57,8 @@ SWITCH_TYPES = [
         "name": "Seamless EPS Switching",
         "register": H_FUNCTION_ENABLE_1, # 21
         "register_type": "hold",
-        "extract": lambda reg: get_bits(reg, 7, 1),
-        "compose": lambda orig, value: set_bits(orig, 7, 1, value),
+        "extract": lambda reg: get_bits(reg, 8, 1),
+        "compose": lambda orig, value: set_bits(orig, 8, 1, value),
         "icon": "mdi:battery-charging",
         "device_class": "switch",
         "enabled": True,
