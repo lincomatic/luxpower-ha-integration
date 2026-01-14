@@ -53,6 +53,17 @@ SWITCH_TYPES = [
         "enabled": True,
         "visible": True,
         "master_only": True,
+    },    {
+        "name": "Seamless EPS Switching",
+        "register": H_FUNCTION_ENABLE_1, # 21
+        "register_type": "hold",
+        "extract": lambda reg: get_bits(reg, 7, 1),
+        "compose": lambda orig, value: set_bits(orig, 7, 1, value),
+        "icon": "mdi:battery-charging",
+        "device_class": "switch",
+        "enabled": True,
+        "visible": True,
+        "master_only": True,
     },
     {
         "name": "Forced Discharge",
