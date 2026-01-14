@@ -1,5 +1,11 @@
 # LuxPower Modbus Integration for Home Assistant
 
+Differences from https://github.com/ant0nkr/luxpower-ha-integration
+
+1. added GridBoss support using info from https://github.com/galets/eg4-modbus-monitor/blob/master/src/registers-gridboss.yaml (adds a new group called GridBoss)
+2. N.B. (not a code change) GridBoss crashes and reboots if you enable Off-Grid Mode the usual way with the Off-Grid Mode switch (Hold Register 21, bit 0). I tested w/ eG4 cloud. To enable/disable Off-Grid Mode on FlexBoss, use GreenMode instead (Hold Register 21, bit 14)
+3. Added Seamless EPS Switching switch
+
 [![HACS Default](https://img.shields.io/badge/HACS-Default-blue.svg?style=for-the-badge)](https://github.com/hacs/integration)
 [![GitHub Release](https://img.shields.io/github/v/release/ant0nkr/luxpower-ha-integration?style=for-the-badge)](https://github.com/ant0nkr/luxpower-ha-integration/releases)
 [![GitHub License](https://img.shields.io/github/license/ant0nkr/luxpower-ha-integration?style=for-the-badge)](https://github.com/ant0nkr/luxpower-ha-integration/blob/main/LICENSE)
