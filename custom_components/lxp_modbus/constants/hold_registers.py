@@ -151,6 +151,7 @@ H_FUNCTION_ENABLE_3 = 110
 # Bit 10: TakeLoadTogether
 # Bit 11: OnGridWorkingMode
 # Bits 12-13: PVCTSampleRatio
+# N.B. GreenModeEn is what's toggled by eG4 cloud in FlexBoss when enabling/disabling "Off-Grid Mode"
 # Bit 14: GreenModeEn
 # Bit 15: EcoModeEn
 # Register 111 is not defined in the Hold Register table.
