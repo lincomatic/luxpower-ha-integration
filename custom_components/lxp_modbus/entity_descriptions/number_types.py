@@ -256,7 +256,7 @@ NUMBER_TYPES = [
         "register": H_AC_CHARGE_SOC_LIMIT,
         "register_type": "hold",
         "min": 0,
-        "max": 100,
+        "max": 101,
         "step": 1,
         "unit": "%",
         "multiplier": 1,
